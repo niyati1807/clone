@@ -1,0 +1,16 @@
+.contact{
+    height: 100px;
+}
+@media only screen and (max-width: 1180px)
+{
+    .restpart{
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+    .cols5bodyyy{
+        display: none;
+    }
+}
