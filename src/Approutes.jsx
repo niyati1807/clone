@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar1 from './Component/Navbar1'
-import Slider from './Component/Slider'
-import Food from './Component/Food'
-import Explore from './Component/Explore'
-import Contact from './Component/Contact'
+import Navbar1 from './component/Navbar1'
+import Slider from './component/Slider'
+import Food from './component/Food'
+import Explore from './component/Explore'
+import Contact from './component/Contact'
 
 const Approutes = () => {
   return (
@@ -18,3 +18,4 @@ const Approutes = () => {
 }
 
 export default Approutes
+
