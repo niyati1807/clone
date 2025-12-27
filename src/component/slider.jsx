@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/pagination";
+
 import mcd from "/src/assets/mcd.avif";
 import gwalia from "/src/assets/gwalia.avif";
 import teapost from "/src/assets/teapost.avif";
@@ -13,11 +14,6 @@ import subway from "/src/assets/subway.avif";
 import jaybhavani from "/src/assets/jaybhavani.avif";
 import kfc from "/src/assets/kfc.avif";
 import burgerk from "/src/assets/burgerk.png";
-
-// import required modules
-import { Pagination } from "swiper/modules";
-
-import "./navbar.css";
 
 const Slider = () => {
   const [data, setData] = useState([]);
@@ -217,3 +213,4 @@ const Slider = () => {
 };
 
 export default Slider;
+
